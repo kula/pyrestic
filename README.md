@@ -18,6 +18,18 @@ something out of a native restic repository.
 This is not meant to be a replacement for restic, or to even be all that
 usable. It's mostly a proof-of-concept.
 
+**DO NOT TRUST MY CRYPTO**
+
+If you use this code to actually try to encrypt something, or as a guide
+to actually using crypto, **_YOU ARE AN IDIOT_**.
+
+Now that we've got that out of the way, crypto coding is fraught with perils
+which are doubly exacerbated by amateurs (read: me). While it is the stated
+goal of this project to be able to successfully decrypt objects from a real
+restic repository, the fact that it can (to the extent that it can) is almost
+approaching accidental. If you want real crypto, use real crypto software
+or hire an engineer who can make it for you.
+
 ## Test repository
 
 A test restic repository is located in the directory `test_repo`. It has
